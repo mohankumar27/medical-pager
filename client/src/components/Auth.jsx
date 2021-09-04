@@ -43,7 +43,7 @@ const Auth = () => {
 
     if (isSignup) {
       cookies.set("phoneNumber", phoneNumber);
-      cookies.set("avatarURL", phoneNumber);
+      cookies.set("avatarURL", avatarURL);
       cookies.set("hashedPassword", hashedPassword);
     }
 
